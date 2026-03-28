@@ -1,6 +1,7 @@
 # Weather Tracker
 
 This Python project fetches daily weather data for multiple cities using the OpenWeatherMap API, stores it in a SQLite database, and visualizes temperature trends over time.
+This Python Streamlit app that fetches real-time weather data for multiple cities and displays it interactively
 
 ## Features
 - Fetch current weather for multiple cities
@@ -12,12 +13,21 @@ This Python project fetches daily weather data for multiple cities using the Ope
 1. Clone the repository:
    ```bash
    git clone https://github.com/prashabhuvi007-maker/Weather_Tracker.git
-   
-  #####  Main Url for Login weather app
-   https://weathertracker-bqynvu7pxak9ejhd4efrf5.streamlit.app/ 
+
+
+## Live Demo
+Check out the live app here:  
+[Weather Tracker Live]https://weathertracker-bqynvu7pxak9ejhd4efrf5.streamlit.app/
+
+## Installation (optional for local use)
+```bash
+git clone https://github.com/prashabhuvi007-maker/Weather_Tracker.git
+cd Weather_Tracker
+pip install -r requirements.txt
+streamlit run app.py 
 
    
-              ## Optional: Automate Daily Updates
+       ### Optional: Automate Daily Updates
    
 Use Windows Task Scheduler to run weather_tracker.py automatically every day.
 Logs and data are saved to the database for historical tracking.
