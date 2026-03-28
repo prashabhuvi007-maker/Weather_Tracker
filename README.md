@@ -12,9 +12,12 @@ This Python project fetches daily weather data for multiple cities using the Ope
 1. Clone the repository:
    ```bash
    git clone https://github.com/prashabhuvi007-maker/Weather_Tracker.git
+   
+  #####  Main Url for Login weather app
+   https://weathertracker-bqynvu7pxak9ejhd4efrf5.streamlit.app/ 
 
    
-#Optional: Automate Daily Updates
+              ## Optional: Automate Daily Updates
    
 Use Windows Task Scheduler to run weather_tracker.py automatically every day.
 Logs and data are saved to the database for historical tracking.
